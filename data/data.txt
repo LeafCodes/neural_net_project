@@ -1,0 +1,4 @@
+Total time : 10.014007899997523
+Iterasi/sec : 4922.804185126735
+Jumlah iterasi : 49297
+Jumlah Epoch : 826
