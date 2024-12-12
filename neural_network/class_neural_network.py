@@ -67,7 +67,7 @@ class NeuralNetwork:
 
     return self.Y_out, self.F_out, self.F_Step
 
-  def backward(self, X, y, learning_rate=0.1, optimizer='default', act_variants='Linear', method='per-element', stop_criterion = 'default', e = 0.1):
+  def backward(self, X, y, learning_rate=0.1, optimizer='default', act_variants='Linear', method='per-element', stop_criterion = 'default', e = 1):
     backward_time   = time.time()
     break_all_loop  = False          # Break Condition
     self.forward(X, act_variants)   # Forward pass awal
